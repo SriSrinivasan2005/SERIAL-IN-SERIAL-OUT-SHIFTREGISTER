@@ -1,16 +1,18 @@
-# SERIAL-IN-SERIAL-OUT-SHIFTREGISTER
+### NAME: SRI SRINIVASAN K
+### REG NO: 24900578
+### EXP 10: SERIAL IN SERIAL OUT SHIFTREGISTER
 
-**AIM:**
+### **AIM:**
 
 To implement  SISO Shift Register using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:**
+###  **SOFTWARE REQUIRED:**
 
 Quartus prime
 
-**THEORY**
 
-**SISO shift Register**
+
+### **SISO SHIFT REGISTER**
 
 A Serial-In Serial-Out shift register is a sequential logic circuit that allows data to be shifted in and out one bit at a time in a serial manner. It consists of a cascade of flip-flops connected in series, forming a chain. The input data is applied to the first flip-flop in the chain, and as the clock pulses, the data propagates through the flip-flops, ultimately appearing at the output.
 
@@ -23,20 +25,26 @@ Figure 01 4 Bit SISO Register
 The synchronous nature of the flip-flops ensures that the shifting of data occurs in a coordinated manner. When the clock signal rises, the input data is sampled and stored in the first flip-flop. On subsequent clock pulses, the stored data propagates through the flip-flops, moving from one flip-flop to the next.
 Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and an output (Q). The D input represents the data to be loaded into the flip-flop, while the CLK input is connected to the common clock signal. The output (Q) of each flip-flop is connected to the D input of the next flip-flop, forming a cascade.
 
-**Procedure**
+### **PROCEDURE**
+1.Initialize the shift register to a known state (e.g., all zeros).
 
-/* write all the steps invloved */
+2.Input a bit serially into the shift register.
 
-**PROGRAM**
+3.Shift the contents of the register one position to the right (or left). 
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+4.Output the shifted bit from the last stage of the register. 
 
-Developed by: RegisterNumber:
+5.Repeat steps 2-4 for each bit you want to input and shift
 
-*/
+### **PROGRAM**
+![Screenshot 2024-12-25 200550](https://github.com/user-attachments/assets/5f381307-8ca0-4a16-96ad-c90bf1340e0a)
 
-**RTL LOGIC FOR SISO Shift Register**
 
-**TIMING DIGRAMS FOR SISO Shift Register**
+### **RTL LOGIC FOR SISO Shift Register**
+![Screenshot 2024-12-25 200613](https://github.com/user-attachments/assets/7fa92f51-32d8-4e74-b73b-39c913ad8044)
 
-**RESULTS**
+### **TIMING DIGRAMS FOR SISO Shift Register**
+![siso waveform](https://github.com/user-attachments/assets/6cf3657d-59a1-468a-93fc-821999861153)
+
+### **RESULTS**
+THE IMPLEMENTATION OF SERIAL-IN-SERIAL-OUT-SHIFTREGISTER IS TESTED AND VERIFIED
