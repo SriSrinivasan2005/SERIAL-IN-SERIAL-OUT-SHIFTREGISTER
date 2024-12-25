@@ -10,7 +10,7 @@ To implement  SISO Shift Register using verilog and validating their functionali
 
 Quartus prime
 
-
+### **THEORY:**
 
 ### **SISO SHIFT REGISTER**
 
