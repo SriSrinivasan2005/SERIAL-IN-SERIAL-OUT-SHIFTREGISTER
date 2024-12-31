@@ -37,11 +37,12 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 5.Repeat steps 2-4 for each bit you want to input and shift
 
 ### **PROGRAM**
-![Screenshot 2024-12-25 200550](https://github.com/user-attachments/assets/5f381307-8ca0-4a16-96ad-c90bf1340e0a)
+![Screenshot 2024-12-31 202438](https://github.com/user-attachments/assets/e2bf625c-b9d6-4832-98bc-943858d99e53)
 
 
 ### **RTL LOGIC FOR SISO Shift Register**
-![Screenshot 2024-12-25 200613](https://github.com/user-attachments/assets/7fa92f51-32d8-4e74-b73b-39c913ad8044)
+![Screenshot 2024-12-31 202425](https://github.com/user-attachments/assets/4309cda2-ed47-48b0-b41c-6974516b074c)
+
 
 ### **TIMING DIGRAMS FOR SISO Shift Register**
 ![siso waveform](https://github.com/user-attachments/assets/6cf3657d-59a1-468a-93fc-821999861153)
